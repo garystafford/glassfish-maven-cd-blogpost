@@ -107,7 +107,7 @@
                 <configuration>
                     <glassfishDirectory>${GLASSFISH_HOME}</glassfishDirectory>
                     <user>${glassfish.user}</user>
-                    <passwordFile>passwords/${glassfish.pwdfile}</passwordFile>
+                    <passwordFile>${basedir}/passwords/${glassfish.pwdfile}</passwordFile>
                     <echo>true</echo>
                     <debug>true</debug>
                     <terse>true</terse>
