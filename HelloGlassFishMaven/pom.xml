@@ -55,7 +55,18 @@
                 <version>2.3</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
+                    <filteringDeploymentDescriptors>true</filteringDeploymentDescriptors>
+                    <webresources>
+                        <resource>
+                            <directory>${basedir}/src/main/webapp/WEB-INF</directory>
+                            <filtering>true</filtering>
+                            <targetpath>WEB-INF</targetpath>
+                            <includes>
+                                <include>**/glassfish-web.xml</include>
+                            </includes>
+                        </resource>
+                    </webresources>
+                </configuration>            
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
