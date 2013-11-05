@@ -99,7 +99,7 @@
                 <version>1.0-alpha-2</version>
                 <configuration>
                     <files>
-                        <file>${basedir}/properties/${glassfish.properties.file.argument}</file>
+                        <file>${basedir}/properties/${glassfish.properties.file.argument}.properties</file>
                     </files>
                 </configuration>
             </plugin>
