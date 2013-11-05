@@ -1,6 +1,6 @@
 glassfish-maven-cd-blogpost
 ===========================
 
-Repository for future blog post, 'Continuous Deployment with Git, Maven, Jenkins, and GlassFish'
+Repository for future blog post, 'Building a Deployment Pipeline Using Git, Maven, Jenkins, JUnit, and GlassFish'
 
-Use Git, Maven, and Jenkins compile, assemble, test, and deploy a RESTful web service to mutliple GlassFish environments.
+Build an automated deployment pipeline for your Java EE applications, using leading open-source technologies, including Git, Maven, Jenkins, JUnit, and GlassFish.
